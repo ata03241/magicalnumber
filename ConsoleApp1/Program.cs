@@ -20,9 +20,8 @@ namespace magicalnummer
                     Console.WriteLine("We have the magical sum of 3\n");
                 }
             }
-            Console.WriteLine("Try again number 10 ");
-            Console.ReadLine();
-            string again = "y";
+            Console.WriteLine("Try again number 10? (y/n) ");
+            string again = Console.ReadLine().Trim().ToLower();
             
 
             if (again == "y") {
