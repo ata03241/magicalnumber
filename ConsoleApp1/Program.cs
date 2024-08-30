@@ -14,9 +14,10 @@ namespace magicalnummer
                 sum += i; 
 
                 Console.WriteLine($"i = {i}");
+                Console.WriteLine($"sum = {sum}\n");
 
-                if (i == 3) {
-                    Console.WriteLine("We have the magical sum " + i);
+                if (sum == 3) {
+                    Console.WriteLine("We have the magical sum of 3\n");
                 }
             }
             Console.WriteLine("Try again with different number ");
